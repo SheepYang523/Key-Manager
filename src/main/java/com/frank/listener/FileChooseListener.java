@@ -22,12 +22,12 @@ public class FileChooseListener implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         JFileChooser fc = new JFileChooser();
-        fc.setFileSelectionMode(JFileChooser.FILES_ONLY);
+        fc.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
         fc.setFileFilter(new FileFilter() {
             @Override
             public boolean accept(File f) {
                 String name = f.getName();
-                return name.endsWith(".pem");
+                return name.endsWith(".pem") || f.isDirectory();
             }
 
             @Override
