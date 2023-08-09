@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="KeyManager:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/KeyManager_jar</output-path>
+    <root id="archive" name="KeyManager.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="KeyManager" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../env/Maven/repo/mvnrepo-3.9.1/commons-codec/commons-codec/1.15/commons-codec-1.15.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
